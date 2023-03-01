@@ -1,0 +1,149 @@
+body {
+    background-color: #fcf8f8;
+    height: 300px;
+}
+h1 {
+    color: #17a2b8;
+    margin: 40px 0;
+    font-size: 55px;
+    font-weight: bold;
+
+}
+.text-center {
+    text-align: center!important;
+    margin: 40px 0
+}
+.asterisk {
+ color: rgb(126, 10, 10);
+ font-size: 30px;
+ position: absolute;
+ right: 30px;
+ top: 10px;
+
+}
+.nice-message {
+    padding: 10px;
+    margin: 10px 10px;
+    background-color: #fffbfb;
+    border-left: #f3f30b solid 10px;
+}
+/*start nav bar*/
+.upper-bar{
+    background-color:#fff;
+    padding: 10px;
+}
+/*End nav bar*/
+/*Start login page*/
+.login-page form{
+    max-width: 300px;
+    margin: auto;
+    padding: 10px 0;
+}
+.login-page form input {
+    margin-bottom: 7px;
+}
+.login-page .active {
+    color: #007bff;
+}
+
+.login-page h1 span {
+    cursor: pointer;
+} 
+/*End login page*/
+/*Start signup page*/
+.signup-page form{
+    max-width: 300px;
+    margin: auto;
+    padding: 10px 0;
+}
+.signup-page form input {
+    margin-bottom: 7px;
+}
+.signup-page .active {
+    color: #5cb85c;
+}
+.signup-page h1 span {
+    cursor: pointer;
+} 
+/*End login page*/
+
+
+/*End login page*/
+/* start categories form*/
+.item-box {
+  position: relative;  
+} 
+.item-box .price-tag{
+    padding: 4px 10px;
+    position: absolute;
+    background-color: whitesmoke;
+    top: 10px;
+    font-weight: bold;
+}
+.item-box img {
+    width: 190px;
+    padding: 20px;
+}
+.item-box .caption p {
+    height: 44px;
+    max-height: 44px;
+}
+
+/*start profile page*/
+.container .panel .panel-heading {
+    background-color: powderblue;
+    padding: 8px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.container ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container ul li{
+  padding: 10px;
+}
+.container ul li:nth-child(odd){
+    background-color: #eee;
+}
+.container ul li span {
+    display: inline-block;
+    width: 120px;
+}
+.container .btn{
+    margin-top: 10px;
+}
+/*Start show item page*/
+.container .row .item-info h2 {
+    margin: 0px;
+    padding: 10px;
+    color: #444434;
+}
+
+.item-info p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    FONT-SIZE: 29PX;
+    padding: 10PX;
+}
+
+.add-comment h3 {
+    margin: 0 0 10px;
+}
+.add-comment textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+.comment-box {
+    margin-bottom: 20px;
+}
+
+.comment-box .lead {
+    padding: 10px;
+}
+.custom-hr {
+    color: #17a2b8;
+}
+

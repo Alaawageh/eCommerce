@@ -1,0 +1,273 @@
+body {
+    background-color: #fcf8f8;
+}
+.asterisk {
+ color: rgb(126, 10, 10);
+ font-size: 30px;
+ position: absolute;
+ right: 30px;
+ top: 10px;
+
+}
+.nice-message {
+    padding: 10px;
+    margin: 10px 10px;
+    background-color: #fffbfb;
+    border-left: #f3f30b solid 10px;
+}
+/* start login form*/
+
+.login {
+    width: 300px;
+    margin: 100px auto;
+}
+.login h2 {
+    color: #17a2b8;
+    /* padding-top: 50px; */
+ 
+}
+.login input {
+    margin-bottom: 10px;
+}
+.login .form-control {
+    background-color: #e5e5e5;
+}
+.login .btn {
+    background-color: #17a2b8;
+}
+/* end login form*/
+/*start Navbar */
+ 
+
+
+/*Start dashboard page*/
+.home-stats .stat {
+    padding: 20px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.home-stats .stat i {
+    font-size: 70px;
+    float: left;
+    top: 35px;
+   
+}
+
+.home-stats .stat .info {
+    float: right;
+}
+
+.home-stats .stat a {
+    color: #fff;
+}
+.home-stats .stat a :hover{
+    text-decoration: none;
+}
+.home-stats .stat span {
+    display: block;
+    font-size: 45px;
+}
+.home-stats .st-members {
+    background-color: #3498db;
+}
+.home-stats .st-pending {
+    background-color:  #ff471a;
+}
+.home-stats .st-items {
+    background-color:#f3f30b;
+}
+.home-stats .st-comments {
+    background-color: #a53e60;
+}
+.latest {
+    margin-top: 30px;
+    
+}
+.latest .panel-heading{
+    background-color: #dfdddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px ;
+}
+.latest .toggle-info {
+    color: #7a7a7a;
+    cursor: pointer;
+}
+.latest .toggle-info:hover {
+    color: #444;
+}
+
+.latest-users {
+    margin-bottom: 0;
+}
+.latest-users li{
+    padding: 10px;
+    overflow: hidden;
+}
+.latest-users li:nth-child(even){
+   background-color: #eee;
+}
+.latest-users .btn-success 
+.latest-users .btn-info{
+padding: 2px 8px;
+}
+.latest-users .btn-info {
+    margin-right: 5px;
+}
+.panel-default .panel-heading  {
+    margin-top: 10px;
+}
+.latest .comment-box {
+    margin: 5px 0px 10px;
+}
+.latest .comment-box .username-n,
+.latest .comment-box .username-c {
+   display: inline-block;
+}
+.latest .comment-box .username-n {
+    width: 80px;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+    top: 10px;
+}
+.latest .comment-box .username-c {
+    width: calc(100%-100px);
+    background-color: #efefef;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+}
+.latest .comment-box .username-c:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: -28px;
+    top: 5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #a1a0a0 transparent transparent;
+    border-width: 15px;
+
+}
+/* member page*/
+.table {
+    background-color: #eee;
+}
+.btn-info {
+    margin-left: 5px;
+}
+.panel-heading {
+    background-color: #eee;
+    padding-left: 5px;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+/*start category page*/
+h2 {
+    color: #17a2b8;
+    /* margin: 40px 0; */
+   
+
+}
+.text-center {
+    text-align: center!important;
+    margin: 40px 0
+}
+.categories .panel-body {
+    padding: 0px;
+}
+.categories .option a {
+    color: #888;
+    text-decoration: none;
+}
+.categories .option span {
+    color: #888;
+    text-decoration: none;
+    cursor: pointer;
+}
+.categories .option .active {
+    color:#9e0808;
+   
+}
+.categories hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.categories .cat {
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.categories .cat:hover {
+    background-color: #eee;
+}
+.categories .cat:hover .hidden-buttons {
+    right: 10px;
+}
+.categories .cat .hidden-buttons {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 15px;
+    right: -145px;
+
+}
+.categories .cat .hidden-buttons a {
+    margin-right: 10px;
+    margin-top: 15px;
+    
+}
+
+.categories .cat h3 {
+    margin: 0px;
+    cursor: pointer;
+}
+.categories .cat .full-view p {
+    margin: 10px 0;
+}
+.categories .cat:last-of-type ~ hr{
+ display: none;
+}
+.categories .cat .Visibility {
+    color: #9e0808;
+    margin: 5px 5px;
+    padding: 4px 4px;
+    font-weight: bold;
+    
+    
+}
+.categories .cat .commenting {
+    color: #2c3e50;
+    margin: 5px 5px;
+    padding: 5px 8px;
+    font-weight: bold;
+}
+.categories .cat .advertise {
+    color: #e05504;
+    margin: 5px 5px;
+    padding: 4px 6px;
+    font-weight: bold;
+}
+.categories .btn-info{
+    margin-top: 10px;
+}
+.categories .child-cats {
+    margin: 0;
+    font-size: 16px;
+}
+.categories .child-cats li {
+    margin-left: 15px;
+}
+.categories .child-cats li:before {
+    content: "- ";
+}
+.categories .show-delete{ 
+    color: #f00;
+    display: none;
+}
